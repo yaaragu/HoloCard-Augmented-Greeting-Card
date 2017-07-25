@@ -3,6 +3,11 @@ This is a fun augmented addition for a birthday greeting card. The app, once see
 
 This Demo was built on Unity using Vofuria SDK. It was built for Android (therefore requirs Java and Android Studio / SDK as well).
 
+In this folder you can find:
+- a demo app for android
+- the example image targer for the app
+- this setp by step guide to build the app
+
 --
 
 If you wish to create a card as well, here is a step by step process:
