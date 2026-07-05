@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200" font-family="'Georgia','Times New Roman',serif">
+  <defs>
+    <!-- Aegean sky gradient behind the shirt -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf4fb"/>
+      <stop offset="1" stop-color="#cfe6f5"/>
+    </linearGradient>
+    <!-- Tank top fabric shading -->
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#f4f7fa"/>
+      <stop offset="1" stop-color="#e4ebf1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.7" stop-color="#f6c445"/>
+      <stop offset="1" stop-color="#f2b134"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa8d8"/>
+      <stop offset="1" stop-color="#1c6ea4"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1c4a66" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+
+  <!-- ===================== SLEEVELESS TANK SILHOUETTE ===================== -->
+  <!-- Narrow shoulder straps + deep concave armhole scoops, no sleeves -->
+  <g filter="url(#soft)">
+    <path fill="url(#fabric)" stroke="#c3d0da" stroke-width="3" stroke-linejoin="round" d="
+      M 430 258
+      L 385 254
+      L 372 300
+      Q 402 386 350 462
+      L 358 984
+      Q 500 1012 642 984
+      L 650 462
+      Q 598 386 628 300
+      L 615 254
+      L 570 258
+      Q 500 332 430 258 Z"/>
+    <!-- inner neckline highlight -->
+    <path fill="none" stroke="#d7e0e8" stroke-width="2" d="M 434 268 Q 500 336 566 268"/>
+    <!-- armhole inner highlight lines -->
+    <path fill="none" stroke="#d7e0e8" stroke-width="2" d="M 380 306 Q 406 384 360 456"/>
+    <path fill="none" stroke="#d7e0e8" stroke-width="2" d="M 620 306 Q 594 384 640 456"/>
+  </g>
+
+  <!-- ===================== PRINTED DESIGN (fitted to tank body) ===================== -->
+  <!-- Top banner -->
+  <text x="500" y="404" text-anchor="middle" font-size="54" font-weight="bold"
+        fill="#12496e" letter-spacing="3">WEIDBERG</text>
+  <text x="500" y="440" text-anchor="middle" font-size="22"
+        fill="#2f7fae" letter-spacing="9">FAMILY&#160;VACATION</text>
+
+  <!-- Circular Santorini crest -->
+  <g transform="translate(500,588)">
+    <circle r="118" fill="url(#sea)" stroke="#0f4f76" stroke-width="6"/>
+    <clipPath id="crestClip"><circle r="113"/></clipPath>
+    <g clip-path="url(#crestClip)">
+      <rect x="-118" y="-118" width="236" height="165" fill="#dff0fb"/>
+      <circle cx="55" cy="-62" r="30" fill="url(#sun)"/>
+      <g fill="#ffffff" stroke="#c9d6df" stroke-width="2">
+        <rect x="-95" y="-16" width="55" height="63"/>
+        <rect x="-46" y="-36" width="47" height="83"/>
+        <rect x="0" y="-8" width="43" height="55"/>
+        <rect x="38" y="-32" width="47" height="79"/>
+      </g>
+      <path d="M -75 -16 a 16 16 0 0 1 32 0 Z" fill="#1c7fc0"/>
+      <path d="M -22 -36 a 14 14 0 0 1 28 0 Z" fill="#1565a8"/>
+      <path d="M 49 -32 a 17 17 0 0 1 34 0 Z" fill="#1c7fc0"/>
+      <path d="M -59 -36 v 13 M -65.5 -29.5 h 13" stroke="#0f4f76" stroke-width="2.5"/>
+      <path d="M 66 -52 v 13 M 59.5 -45.5 h 13" stroke="#0f4f76" stroke-width="2.5"/>
+      <rect x="-118" y="47" width="236" height="90" fill="url(#sea)"/>
+      <path d="M -118 47 q 24 10 48 0 t 48 0 t 48 0 t 48 0 t 48 0" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+    </g>
+    <!-- olive branches flanking -->
+    <g stroke="#5f8f3e" stroke-width="4" fill="#7cae4e">
+      <path d="M -118 16 q -30 24 -42 62" fill="none"/>
+      <ellipse cx="-140" cy="46" rx="8" ry="4" transform="rotate(-35 -140 46)"/>
+      <ellipse cx="-151" cy="62" rx="8" ry="4" transform="rotate(-25 -151 62)"/>
+      <ellipse cx="-157" cy="79" rx="8" ry="4" transform="rotate(-15 -157 79)"/>
+      <path d="M 118 16 q 30 24 42 62" fill="none"/>
+      <ellipse cx="140" cy="46" rx="8" ry="4" transform="rotate(35 140 46)"/>
+      <ellipse cx="151" cy="62" rx="8" ry="4" transform="rotate(25 151 62)"/>
+      <ellipse cx="157" cy="79" rx="8" ry="4" transform="rotate(15 157 79)"/>
+    </g>
+  </g>
+
+  <!-- GREECE wordmark -->
+  <text x="500" y="782" text-anchor="middle" font-size="60" font-weight="bold"
+        fill="#12496e" letter-spacing="8">GREECE</text>
+
+  <!-- Greek key (meander) divider -->
+  <g transform="translate(407,808) scale(0.85)" stroke="#2f7fae" stroke-width="6" fill="none" stroke-linejoin="miter">
+    <path d="M0 20 h18 v-16 h16 v16 h-9 v-9 h9
+             M43 4 h18 v16 h16 v-16 h-9 v9 h9
+             M86 20 h18 v-16 h16 v16 h-9 v-9 h9
+             M129 4 h18 v16 h16 v-16 h-9 v9 h9
+             M172 20 h18 v-16 h16 v16 h-9 v-9 h9"/>
+  </g>
+
+  <!-- Year / caption -->
+  <text x="500" y="878" text-anchor="middle" font-size="27"
+        fill="#2f7fae" letter-spacing="6">SUMMER&#160;&#8226;&#160;JULY&#160;2026</text>
+  <text x="500" y="912" text-anchor="middle" font-size="18" font-style="italic"
+        fill="#6b8697" letter-spacing="1">&#963;&#945;&#962;&#160;&#960;&#945;&#961;&#945;&#954;&#945;&#955;&#974; &#8212; &#8220;Please&#8221;, pack the sunscreen!</text>
+</svg>
