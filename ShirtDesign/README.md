@@ -41,6 +41,29 @@ For the 8-person family: **Jon, Talia, Abby, David, Benny, Yaara, Eli, Wendy.**
 Regenerate with `python3 generate_named.py` (needs `cairosvg` + `pillow`).
 To change or reorder names, edit the `NAMES` list at the top of that script.
 
+## Modern set (chosen direction — no badge, sans-serif)
+
+Two badge-free, modern designs with matching fronts and back rosters, in
+**Light** (dark ink on a light shirt) and **Dark** (white/gold ink on a dark
+shirt) colorways:
+
+- **A — Sunrise line-art** — `Modern_A_SunriseLine_*` (front),
+  `ModernBack_A_SunriseLine_*` (back), `ModernLayout_A_SunriseLine_*` (front+back sheet)
+- **C — Editorial type-only** — `Modern_C_TypeOnly_*` (front),
+  `ModernBack_C_TypeOnly_*` (back), `ModernLayout_C_TypeOnly_*` (front+back sheet)
+
+Backs read **THE WEIDBERGS** / roster of all 8 names, styled to match each
+front (no Greek-key border).
+
+### Transparent (no background) exports
+
+`Transparent_<concept>_<Front|Back>_<Light|Dark>.png` — true alpha PNGs with no
+background, ready to drop straight onto any shirt color/mockup. The `.svg`
+sources are transparent as well; the other `.png` previews only add a
+background so the art is visible on screen.
+
+Regenerate: `python3 generate_modern.py && python3 generate_modern_back.py`.
+
 ## Tank-top mockup (original)
 
 - `WeidbergFamily_Greece_Tank.svg` — the Santorini art shown on a sleeveless
