@@ -12,6 +12,11 @@ DARK  = dict(ink="#ffffff", mid="#f6c445", gold="#f6c445", sea="#7fc4ec",
              sub="#93a7b4", preview="#152230")
 SAND  = dict(ink="#233b46", mid="#c8613b", gold="#e1a537", sea="#2f7d9e",
              sub="#9a8b76", preview="#f0e7d8")   # warm flat palette for the poster
+# Greek flag blue & white theme
+BLUEW = dict(ink="#0d5eaf", mid="#2f7fae", gold="#0d5eaf", sea="#3f8fd0",
+             sub="#7fa8cf", preview="#ffffff")   # blue ink on white shirt
+WHITEB = dict(ink="#ffffff", mid="#dcecff", gold="#ffffff", sea="#bfe0ff",
+              sub="#cfe4fb", preview="#0d5eaf")   # white ink on Greek-blue shirt
 
 def head(pal, y=140, size=26):
     return (f'<text x="{W/2}" y="{y}" text-anchor="middle" font-family="{SANS}" '
@@ -81,9 +86,9 @@ def concept_C(pal):
 </svg>"""
 
 JOBS = [
-    ("Modern_A_SunriseLine", concept_A, [("Light", LIGHT), ("Dark", DARK)]),
+    ("Modern_A_SunriseLine", concept_A, [("Light", LIGHT), ("Dark", DARK), ("BlueOnWhite", BLUEW), ("WhiteOnBlue", WHITEB)]),
     ("Modern_B_FlatPoster",  concept_B, [("Light", LIGHT), ("Sand", SAND), ("Dark", DARK)]),
-    ("Modern_C_TypeOnly",    concept_C, [("Light", LIGHT), ("Dark", DARK)]),
+    ("Modern_C_TypeOnly",    concept_C, [("Light", LIGHT), ("Dark", DARK), ("BlueOnWhite", BLUEW), ("WhiteOnBlue", WHITEB)]),
 ]
 for name, fn, pals in JOBS:
     for tag, pal in pals:

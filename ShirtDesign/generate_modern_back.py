@@ -12,6 +12,10 @@ LIGHT = dict(ink="#12496e", mid="#2f7fae", gold="#f2b134", sea="#1c6ea4",
              sub="#8aa0ad", hair="#c4d3dd", preview="#f4f7f9")
 DARK  = dict(ink="#ffffff", mid="#f6c445", gold="#f6c445", sea="#7fc4ec",
              sub="#93a7b4", hair="#33475a", preview="#152230")
+BLUEW = dict(ink="#0d5eaf", mid="#2f7fae", gold="#0d5eaf", sea="#3f8fd0",
+             sub="#7fa8cf", hair="#cfe0f0", preview="#ffffff")   # blue on white
+WHITEB = dict(ink="#ffffff", mid="#dcecff", gold="#ffffff", sea="#bfe0ff",
+              sub="#cfe4fb", hair="#3f7fbf", preview="#0d5eaf")   # white on Greek blue
 
 def rays(cx, cy, r0, r1, pal, n=9, a0=-160, a1=-20, w=2.5):
     s = ""
@@ -67,7 +71,7 @@ def render(svg, base, pal):
 
 BACKS = {"A_SunriseLine": back_A, "C_TypeOnly": back_C}
 for name, fn in BACKS.items():
-    for tag, pal in (("Light", LIGHT), ("Dark", DARK)):
+    for tag, pal in (("Light", LIGHT), ("Dark", DARK), ("BlueOnWhite", BLUEW), ("WhiteOnBlue", WHITEB)):
         base = f"ModernBack_{name}_{tag}"
         render(fn(pal), base, pal)
         print("wrote", base)
@@ -81,7 +85,8 @@ def font(size):
 
 for concept, front_stub in (("A_SunriseLine", "Modern_A_SunriseLine"),
                             ("C_TypeOnly", "Modern_C_TypeOnly")):
-    for tag, pal, fg in (("Light", LIGHT, "#12496e"), ("Dark", DARK, "#f6c445")):
+    for tag, pal, fg in (("Light", LIGHT, "#12496e"), ("Dark", DARK, "#f6c445"),
+                         ("BlueOnWhite", BLUEW, "#0d5eaf"), ("WhiteOnBlue", WHITEB, "#ffffff")):
         front = Image.open(f"{front_stub}_{tag}.png").convert("RGB")
         back = Image.open(f"ModernBack_{concept}_{tag}.png").convert("RGB")
         pad, gap, top = 40, 60, 70
@@ -100,7 +105,7 @@ for concept, front_stub in (("A_SunriseLine", "Modern_A_SunriseLine"),
 transparent = []
 for concept, front_stub in (("A_SunriseLine", "Modern_A_SunriseLine"),
                             ("C_TypeOnly", "Modern_C_TypeOnly")):
-    for tag in ("Light", "Dark"):
+    for tag in ("Light", "Dark", "BlueOnWhite", "WhiteOnBlue"):
         for role, src in (("Front", f"{front_stub}_{tag}.svg"),
                           ("Back", f"ModernBack_{concept}_{tag}.svg")):
             out = f"Transparent_{concept}_{role}_{tag}.png"
