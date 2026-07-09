@@ -23,6 +23,24 @@ Shared frame: **WEIDBERG / FAMILY VACATION** over **GREECE**, a Greek-key
 (meander) divider, and **SUMMER · JULY 2026**. Palette: Aegean blues, olive
 green, sun gold.
 
+## Named + colorway set (front & back)
+
+For the 8-person family: **Jon, Talia, Abby, David, Benny, Yaara, Eli, Wendy.**
+
+- **Back roster** — `Back_Roster_Light.svg` / `Back_Roster_Dark.svg`
+  ("TEAM WEIDBERG" + all 8 names + Greek-key trim).
+- **Front colorways** — each front comes in a **Light** (dark ink, for a light
+  shirt) and **Dark** (white/gold ink, for a dark shirt) version:
+  `Front_Santorini_{Light,Dark}.svg`, `Front_Parthenon_{Light,Dark}.svg`,
+  `Front_IslandsMap_{Light,Dark}.svg`.
+- **New image** — `Front_IslandsMap_*` : a stylized Aegean island-hop map with a
+  dashed travel route and a destination pin.
+- **Front + back layout sheets** — `Layout_Santorini_{Light,Dark}.png`,
+  `Layout_IslandsMap_Dark.png` (print reference showing both panels together).
+
+Regenerate with `python3 generate_named.py` (needs `cairosvg` + `pillow`).
+To change or reorder names, edit the `NAMES` list at the top of that script.
+
 ## Tank-top mockup (original)
 
 - `WeidbergFamily_Greece_Tank.svg` — the Santorini art shown on a sleeveless
