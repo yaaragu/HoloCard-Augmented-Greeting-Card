@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" font-family="'Georgia','Times New Roman',serif">
+
+  <defs>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.7" stop-color="#f6c445"/>
+      <stop offset="1" stop-color="#f2b134"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa8d8"/>
+      <stop offset="1" stop-color="#1c6ea4"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="1" stop-color="#cfe8fb"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6dcc7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- WEIDBERG / FAMILY VACATION -->
+  <text x="400" y="122" text-anchor="middle" font-size="70" font-weight="bold" fill="#12496e" letter-spacing="4">WEIDBERG</text>
+  <text x="400" y="164" text-anchor="middle" font-size="27" fill="#2f7fae" letter-spacing="11">FAMILY&#160;VACATION</text>
+
+  <!-- Emblem -->
+  <g transform="translate(400,420)">
+    <circle r="150" fill="url(#sea)" stroke="#0f4f76" stroke-width="7"/>
+    <clipPath id="clip"><circle r="146"/></clipPath>
+    <g clip-path="url(#clip)">
+      <rect x="-150" y="-150" width="300" height="300" fill="url(#sky)"/>
+      <circle cx="0" cy="0" r="62" fill="url(#sun)"/>
+      <g stroke="#f2b134" stroke-width="5" stroke-linecap="round">
+        <line x1="0" y1="-92" x2="0" y2="-108"/>
+        <line x1="0" y1="92" x2="0" y2="108"/>
+        <line x1="-92" y1="0" x2="-108" y2="0"/>
+        <line x1="92" y1="0" x2="108" y2="0"/>
+        <line x1="-65" y1="-65" x2="-77" y2="-77"/>
+        <line x1="65" y1="-65" x2="77" y2="-77"/>
+        <line x1="-65" y1="65" x2="-77" y2="77"/>
+        <line x1="65" y1="65" x2="77" y2="77"/>
+      </g>
+      <path d="M 0 -118 a 118 118 0 0 1 0 236" fill="none" stroke="#5f8f3e" stroke-width="3"/>
+      <path d="M 0 -118 a 118 118 0 0 0 0 236" fill="none" stroke="#5f8f3e" stroke-width="3"/>
+      <ellipse cx="40.4" cy="-110.9" rx="15" ry="7" transform="rotate(20 40.4 -110.9)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="66.0" cy="-97.8" rx="15" ry="7" transform="rotate(34 66.0 -97.8)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="87.7" cy="-79.0" rx="15" ry="7" transform="rotate(48 87.7 -79.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="104.2" cy="-55.4" rx="15" ry="7" transform="rotate(62 104.2 -55.4)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="114.5" cy="-28.5" rx="15" ry="7" transform="rotate(76 114.5 -28.5)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="118.0" cy="0.0" rx="15" ry="7" transform="rotate(90 118.0 0.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="114.5" cy="28.5" rx="15" ry="7" transform="rotate(104 114.5 28.5)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="104.2" cy="55.4" rx="15" ry="7" transform="rotate(118 104.2 55.4)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="87.7" cy="79.0" rx="15" ry="7" transform="rotate(132 87.7 79.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="66.0" cy="97.8" rx="15" ry="7" transform="rotate(146 66.0 97.8)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="40.4" cy="110.9" rx="15" ry="7" transform="rotate(160 40.4 110.9)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-40.4" cy="110.9" rx="15" ry="7" transform="rotate(200 -40.4 110.9)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-66.0" cy="97.8" rx="15" ry="7" transform="rotate(214 -66.0 97.8)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-87.7" cy="79.0" rx="15" ry="7" transform="rotate(228 -87.7 79.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-104.2" cy="55.4" rx="15" ry="7" transform="rotate(242 -104.2 55.4)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-114.5" cy="28.5" rx="15" ry="7" transform="rotate(256 -114.5 28.5)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-118.0" cy="0.0" rx="15" ry="7" transform="rotate(270 -118.0 0.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-114.5" cy="-28.5" rx="15" ry="7" transform="rotate(284 -114.5 -28.5)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-104.2" cy="-55.4" rx="15" ry="7" transform="rotate(298 -104.2 -55.4)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-87.7" cy="-79.0" rx="15" ry="7" transform="rotate(312 -87.7 -79.0)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-66.0" cy="-97.8" rx="15" ry="7" transform="rotate(326 -66.0 -97.8)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/><ellipse cx="-40.4" cy="-110.9" rx="15" ry="7" transform="rotate(340 -40.4 -110.9)" fill="#7cae4e" stroke="#5f8f3e" stroke-width="1.5"/>
+    </g>
+    <!-- olive branches flanking -->
+    <g stroke="#5f8f3e" stroke-width="5" fill="#7cae4e">
+      <path d="M -150 22 q -38 30 -52 78" fill="none"/>
+      <ellipse cx="-178" cy="58" rx="10" ry="5" transform="rotate(-35 -178 58)"/>
+      <ellipse cx="-192" cy="80" rx="10" ry="5" transform="rotate(-25 -192 80)"/>
+      <ellipse cx="-200" cy="103" rx="10" ry="5" transform="rotate(-15 -200 103)"/>
+      <path d="M 150 22 q 38 30 52 78" fill="none"/>
+      <ellipse cx="178" cy="58" rx="10" ry="5" transform="rotate(35 178 58)"/>
+      <ellipse cx="192" cy="80" rx="10" ry="5" transform="rotate(25 192 80)"/>
+      <ellipse cx="200" cy="103" rx="10" ry="5" transform="rotate(15 200 103)"/>
+    </g>
+  </g>
+
+  <!-- GREECE -->
+  <text x="400" y="678" text-anchor="middle" font-size="78" font-weight="bold" fill="#12496e" letter-spacing="10">GREECE</text>
+
+  <!-- Greek-key divider -->
+  <g transform="translate(280,706)" stroke="#2f7fae" stroke-width="6" fill="none" stroke-linejoin="miter">
+    <path d="M0 20 h18 v-16 h16 v16 h-9 v-9 h9
+             M43 4 h18 v16 h16 v-16 h-9 v9 h9
+             M86 20 h18 v-16 h16 v16 h-9 v-9 h9
+             M129 4 h18 v16 h16 v-16 h-9 v9 h9
+             M172 20 h18 v-16 h16 v16 h-9 v-9 h9"/>
+  </g>
+
+  <!-- SUMMER JULY 2026 -->
+  <text x="400" y="782" text-anchor="middle" font-size="32" fill="#2f7fae" letter-spacing="7">SUMMER&#160;&#8226;&#160;JULY&#160;2026</text>
+  <text x="400" y="820" text-anchor="middle" font-size="19" font-style="italic" fill="#6b8697" letter-spacing="1">&#963;&#945;&#962;&#160;&#960;&#945;&#961;&#945;&#954;&#945;&#955;&#974; &#8212; &#8220;Please&#8221;, pack the sunscreen!</text>
+</svg>
