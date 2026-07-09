@@ -13,10 +13,10 @@ DARK  = dict(ink="#ffffff", mid="#f6c445", gold="#f6c445", sea="#7fc4ec",
 SAND  = dict(ink="#233b46", mid="#c8613b", gold="#e1a537", sea="#2f7d9e",
              sub="#9a8b76", preview="#f0e7d8")   # warm flat palette for the poster
 # Greek flag blue & white theme
-BLUEW = dict(ink="#0d5eaf", mid="#2f7fae", gold="#0d5eaf", sea="#3f8fd0",
-             sub="#7fa8cf", preview="#ffffff")   # blue ink on white shirt
+BLUEW = dict(ink="#0072ce", mid="#0072ce", gold="#0072ce", sea="#7fbde9",
+             sub="#9cc7ea", preview="#ffffff")   # Aegean Azure ink on white shirt
 WHITEB = dict(ink="#ffffff", mid="#dcecff", gold="#ffffff", sea="#bfe0ff",
-              sub="#cfe4fb", preview="#0d5eaf")   # white ink on Greek-blue shirt
+              sub="#cfe4fb", preview="#0072ce")   # white ink on Aegean Azure shirt
 
 def head(pal, y=140, size=26):
     return (f'<text x="{W/2}" y="{y}" text-anchor="middle" font-family="{SANS}" '

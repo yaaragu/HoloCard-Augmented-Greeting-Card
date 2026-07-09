@@ -12,10 +12,10 @@ LIGHT = dict(ink="#12496e", mid="#2f7fae", gold="#f2b134", sea="#1c6ea4",
              sub="#8aa0ad", hair="#c4d3dd", preview="#f4f7f9")
 DARK  = dict(ink="#ffffff", mid="#f6c445", gold="#f6c445", sea="#7fc4ec",
              sub="#93a7b4", hair="#33475a", preview="#152230")
-BLUEW = dict(ink="#0d5eaf", mid="#2f7fae", gold="#0d5eaf", sea="#3f8fd0",
-             sub="#7fa8cf", hair="#cfe0f0", preview="#ffffff")   # blue on white
+BLUEW = dict(ink="#0072ce", mid="#0072ce", gold="#0072ce", sea="#7fbde9",
+             sub="#9cc7ea", hair="#cfe6f7", preview="#ffffff")   # Aegean Azure on white
 WHITEB = dict(ink="#ffffff", mid="#dcecff", gold="#ffffff", sea="#bfe0ff",
-              sub="#cfe4fb", hair="#3f7fbf", preview="#0d5eaf")   # white on Greek blue
+              sub="#cfe4fb", hair="#3f93d6", preview="#0072ce")   # white on Aegean Azure
 
 def rays(cx, cy, r0, r1, pal, n=9, a0=-160, a1=-20, w=2.5):
     s = ""
