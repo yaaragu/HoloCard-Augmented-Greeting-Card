@@ -9,6 +9,9 @@ we skip the rough drafts and get to a great result fast.
 ## TRIP (edit these each time)
 - **Family name / hero word:** Weidberg  (as "Weidbergs")
 - **Destination:** ____
+- **Trip character / vibe:** ____  (e.g. Greek seaside, countryside/agrarian,
+  desert, alpine, city — this drives the palette AND the motifs, see below)
+- **Language(s) for text:** ____  (e.g. English, Hebrew — supports RTL / non-Latin)
 - **Dates / tagline:** SUMMER 2026
 - **Family members (for back roster):** Jon, Talia, Abby, David, Benny, Yaara, Eli, Wendy
 - **Shirt style:** ____ (tee / sleeveless tank / etc. — pick for the season)
@@ -19,11 +22,13 @@ we skip the rough drafts and get to a great result fast.
 
 Whatever the style, the design must feel **refined, cohesive, and intentional** —
 like a boutique travel brand, not a souvenir stall. Judge every draft on:
-- **A rich, specific hero.** The focal illustration should be **detailed and
-  unmistakably THIS destination** — a real scene or a distinctive object, not a
-  generic mark that could be "any beach trip." **Default to more detail, not
-  less.** Restraint belongs in the palette and type; the artwork should be the
-  star and carry real craft.
+- **A specific, evocative hero.** The focal art must be **unmistakably THIS
+  destination** — achieved either by rich detail *or* by a **distinctive,
+  well-composed scene** (even a single-color monoline landscape works, e.g. palm
+  + plowed fields + mountains + sun for a countryside trip). The enemy is
+  *generic*, not *simple*: a lone sun-and-waves is vague; a composed local scene
+  is not. When unsure, add place-specific detail. Restraint belongs in palette
+  and type; the artwork is the star.
 - **Tonal, curated palette** (4–5 harmonious shades) + **one** restrained accent.
 - **Clear hierarchy** — one hero, supporting type kept quiet. Negative space is
   a tool for focus, **not** a reason to strip the design down to something sparse
@@ -38,11 +43,12 @@ the single mark is genuinely distinctive; when in doubt, add detail and place.
 
 ## THREE VALID LANES (offer these; pick one per trip)
 
-**Lane A — Modern Minimal.** A single clean line-art mark (e.g. a sunrise over
-water) + a large, confident sans wordmark of the destination; one or two colors,
-lots of air. Crisp and contemporary. *Great as a one-color print* — but only
-pick this lane when the mark is genuinely distinctive to the place; a bare
-sun-and-waves can read as generic. When unsure, prefer Lane B or C.
+**Lane A — Modern Minimal / Monoline Scene.** Clean line-art in one or two
+colors with lots of air. Two flavors: a single distinctive **mark** (only if
+genuinely place-specific), or — better — a **composed monoline landscape scene**
+(e.g. palm, plowed fields, mountains, sun) that reads as a specific place while
+staying elegant and light. Pair with a confident wordmark. *Great as a one-color
+print.* A tiny warm accent dot or two can lift it.
 
 **Lane B — Illustrated Scene.** A soft, painterly vignette of the place
 (e.g. a whitewashed Santorini church + blue dome, bougainvillea, a sailboat)
@@ -57,23 +63,35 @@ family name** as the hero + wide-tracked sans caps for destination · dates, and
 a single gold/mustard accent (dot + hairlines). Crafted and personal.
 
 ## STYLE INGREDIENTS (mix to fit the chosen lane)
-- **Palette:** tonal Mediterranean set — navy, powder/sky blue, sand/cream,
-  white — plus exactly **one** warm metallic accent (mustard/gold) used sparingly.
-  Prefer curated tones over pure/primary flag colors, but a clean single blue on
-  white is also welcome (we used Aegean Azure `#0072CE`).
-- **Motifs:** specific and evocative of the place. Curated/unexpected (fish,
-  *mati*, olive) OR iconic-done-well (blue domes, sailboat) — both fine.
-  Keep illustration style consistent within one design.
+- **Palette follows the destination's character** — build a tonal 4–5 shade set
+  that *feels* like the place, plus exactly **one** restrained accent:
+  - *Seaside / Greece* → navy, powder/sky blue, sand/cream, white (+ mustard/gold
+    accent). A clean single blue on white also works (Aegean Azure `#0072CE`).
+  - *Countryside / agrarian* → sage/olive green, natural cream/canvas, warm taupe
+    (+ a small terracotta/red accent).
+  - *Desert* → clay, sand, rust, off-white. *Alpine* → pine, slate, snow.
+  Prefer curated tones over pure/primary colors. Don't default to blue — pick
+  for the trip.
+- **Motifs follow the place too:** specific and evocative. Curated/unexpected
+  (fish, *mati*, olive) OR iconic-done-well (blue domes, sailboat) OR a composed
+  local landscape (palm, fields, hills). Keep one illustration style per design.
 - **Texture:** a gouache/brushstroke feel lifts a design from "vector" to
   "crafted" — ask for it when the lane suits it (esp. B and C).
 - **Type:** one hero + one support family, two max. Hero can be a **script**
   (Lane C), a **refined serif in caps** (Lane B), or a **bold geometric sans**
   (Lane A). Support is always a neutral sans, uppercase, wide letter-spacing, small.
+- **Language / script:** set text in the family's language when they want it —
+  **including Hebrew or other non-Latin / RTL scripts.** Choose fonts that
+  actually contain the glyphs, respect RTL layout and letter-joining, and don't
+  letter-space scripts that shouldn't be spaced. Bilingual (e.g. Hebrew hero +
+  small English dateline) is welcome.
 
 ## WATCH-OUTS (quality failures, not banned subjects)
 - **Vague / generic** — a mark or scene that could be *any* vacation. This is the
-  #1 failure: be specific to the destination and render it richly.
-- **Over-minimal / under-designed** — so sparse it feels unfinished. Add detail.
+  #1 failure: make it specific to the destination (a composed local scene counts,
+  even in monoline; a lone generic icon does not).
+- **Wrong palette for the place** — Mediterranean blue on a countryside trip, etc.
+  Match the destination's character.
 - Cheap clip-art or inconsistent illustration styles mixed together.
 - Cluttered composition / no clear hero.
 - More than one accent color; muddy or clashing palette.
